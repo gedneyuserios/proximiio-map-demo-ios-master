@@ -1,0 +1,6 @@
+framework module ProximiioMap {
+  umbrella header "ProximiioMap.h"
+
+  export *
+  module * { export * }
+}

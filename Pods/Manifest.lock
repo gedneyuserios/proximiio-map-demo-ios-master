@@ -1,0 +1,19 @@
+PODS:
+  - Proximiio (1.1.43)
+  - ProximiioMap (0.2.8):
+    - Proximiio
+  - QRCodeReaderViewController (4.0.2)
+
+DEPENDENCIES:
+  - Proximiio
+  - ProximiioMap
+  - QRCodeReaderViewController
+
+SPEC CHECKSUMS:
+  Proximiio: 1c7338c6e22c29b00807dac9e343aabe9ed9e9f9
+  ProximiioMap: c92f873f6fbe8273ed8825d329ab0eb5897b0c36
+  QRCodeReaderViewController: e8f27d035b3e72b1d4b1c61ff66458287e3be0ff
+
+PODFILE CHECKSUM: 39f81e70d63836ba2098615f1b126693cb87e6fe
+
+COCOAPODS: 1.3.1

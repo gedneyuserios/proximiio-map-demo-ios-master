@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		611940B920361ED2002E685C /* icon-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 611940B720361ED1002E685C /* icon-down.png */; };
+		611940BA20361ED2002E685C /* icon-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 611940B820361ED2002E685C /* icon-up.png */; };
+		611940BE20362A9C002E685C /* icon-spy.png in Resources */ = {isa = PBXBuildFile; fileRef = 611940BD20362A9B002E685C /* icon-spy.png */; };
+		6128B99920346B0A0068EABD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6128B99820346B0A0068EABD /* background.png */; };
+		6128B99B20346BF90068EABD /* splash_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6128B99A20346BF80068EABD /* splash_logo.png */; };
+		6128B99D20347A4D0068EABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6128B99C20347A4D0068EABD /* Assets.xcassets */; };
+		6128B9A12034BBB80068EABD /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 6128B9A02034BBB80068EABD /* car.png */; };
+		61543CFB202CA1F700AA2581 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 61543CF9202CA1F600AA2581 /* HTTPClient.m */; };
+		61543CFE202CCC0D00AA2581 /* show.png in Resources */ = {isa = PBXBuildFile; fileRef = 61543CFC202CCC0B00AA2581 /* show.png */; };
+		61543CFF202CCC0D00AA2581 /* route_to.png in Resources */ = {isa = PBXBuildFile; fileRef = 61543CFD202CCC0C00AA2581 /* route_to.png */; };
+		61543D03202CD9A900AA2581 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 61543D02202CD9A900AA2581 /* default.png */; };
+		616CE137201B67F200BDEC59 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616CE136201B67F100BDEC59 /* MapKit.framework */; };
+		618A56DB2036E7B100800C10 /* track_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 618A56D92036E7B000800C10 /* track_off.png */; };
+		618A56DC2036E7B100800C10 /* track_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 618A56DA2036E7B000800C10 /* track_on.png */; };
+		61B9EEBD201CF1EE0007829E /* elevator.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B9EEBB201CF1EE0007829E /* elevator.png */; };
+		61B9EEBE201CF1EE0007829E /* stairs.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B9EEBC201CF1EE0007829E /* stairs.png */; };
+		61BC02ED202A028700936345 /* GeoTargetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BC02EC202A028700936345 /* GeoTargetCell.m */; };
+		61BC02F7202A21B700936345 /* route.png in Resources */ = {isa = PBXBuildFile; fileRef = 61BC02F4202A21B700936345 /* route.png */; };
+		61BC02FC202A24DB00936345 /* routing-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 61BC02F8202A24DB00936345 /* routing-on.png */; };
+		61BC02FE202A24DB00936345 /* routing-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 61BC02FA202A24DB00936345 /* routing-off.png */; };
+		61BC0301202A2A1300936345 /* icon_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 61BC0300202A2A1300936345 /* icon_pin.png */; };
+		61E60770200CF090005CCFE9 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E6076E200CF08F005CCFE9 /* Crashlytics.framework */; };
+		61E60771200CF090005CCFE9 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E6076F200CF090005CCFE9 /* Fabric.framework */; };
+		961DDB6D1FEBB0FF009BE838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DDB6C1FEBB0FF009BE838 /* AppDelegate.m */; };
+		961DDB781FEBB0FF009BE838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961DDB761FEBB0FF009BE838 /* LaunchScreen.storyboard */; };
+		961DDB7B1FEBB0FF009BE838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DDB7A1FEBB0FF009BE838 /* main.m */; };
+		961DDBA01FEBB11F009BE838 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DDB9E1FEBB11F009BE838 /* ViewController.m */; };
+		961DDBA11FEBB11F009BE838 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 961DDB9F1FEBB11F009BE838 /* ViewController.xib */; };
+		961DDBAA1FEBB26F009BE838 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961DDBA21FEBB26E009BE838 /* ListViewController.m */; };
+		961DDBAB1FEBB26F009BE838 /* elevator256.png in Resources */ = {isa = PBXBuildFile; fileRef = 961DDBA31FEBB26E009BE838 /* elevator256.png */; };
+		961DDBAC1FEBB26F009BE838 /* ibeacon_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 961DDBA41FEBB26E009BE838 /* ibeacon_marker.png */; };
+		961DDBAD1FEBB26F009BE838 /* stairs128.png in Resources */ = {isa = PBXBuildFile; fileRef = 961DDBA51FEBB26E009BE838 /* stairs128.png */; };
+		961DDBAE1FEBB26F009BE838 /* elevator64.png in Resources */ = {isa = PBXBuildFile; fileRef = 961DDBA61FEBB26E009BE838 /* elevator64.png */; };
+		961DDBAF1FEBB26F009BE838 /* elevator2562.png in Resources */ = {isa = PBXBuildFile; fileRef = 961DDBA71FEBB26E009BE838 /* elevator2562.png */; };
+		961DDBB01FEBB26F009BE838 /* eddystone_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 961DDBA91FEBB26F009BE838 /* eddystone_marker.png */; };
+		961DDBB21FEBB301009BE838 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961DDBB11FEBB301009BE838 /* QuartzCore.framework */; };
+		961DDBB41FEBC3AE009BE838 /* parked-car.png in Resources */ = {isa = PBXBuildFile; fileRef = 961DDBB31FEBC3AE009BE838 /* parked-car.png */; };
+		DF612EC9D61164479B98FF7B /* libPods-ProximiioMapDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D89BD3798CBA4E6CC4AC9B /* libPods-ProximiioMapDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1E32EBAE204070B000035164 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		611940B720361ED1002E685C /* icon-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-down.png"; sourceTree = "<group>"; };
+		611940B820361ED2002E685C /* icon-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-up.png"; sourceTree = "<group>"; };
+		611940BD20362A9B002E685C /* icon-spy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-spy.png"; sourceTree = "<group>"; };
+		611940C0203648C3002E685C /* track-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "track-off.png"; sourceTree = "<group>"; };
+		611940C1203648C3002E685C /* track-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "track-on.png"; sourceTree = "<group>"; };
+		6128B99820346B0A0068EABD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		6128B99A20346BF80068EABD /* splash_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_logo.png; sourceTree = "<group>"; };
+		6128B99C20347A4D0068EABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6128B9A02034BBB80068EABD /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		61543CF9202CA1F600AA2581 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
+		61543CFA202CA1F700AA2581 /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
+		61543CFC202CCC0B00AA2581 /* show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show.png; sourceTree = "<group>"; };
+		61543CFD202CCC0C00AA2581 /* route_to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route_to.png; sourceTree = "<group>"; };
+		61543D02202CD9A900AA2581 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		616CE136201B67F100BDEC59 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		618A56D92036E7B000800C10 /* track_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = track_off.png; sourceTree = "<group>"; };
+		618A56DA2036E7B000800C10 /* track_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = track_on.png; sourceTree = "<group>"; };
+		61B9EEBB201CF1EE0007829E /* elevator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elevator.png; sourceTree = "<group>"; };
+		61B9EEBC201CF1EE0007829E /* stairs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stairs.png; sourceTree = "<group>"; };
+		61BC02EB202A028700936345 /* GeoTargetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoTargetCell.h; sourceTree = "<group>"; };
+		61BC02EC202A028700936345 /* GeoTargetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoTargetCell.m; sourceTree = "<group>"; };
+		61BC02F4202A21B700936345 /* route.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = route.png; sourceTree = "<group>"; };
+		61BC02F8202A24DB00936345 /* routing-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "routing-on.png"; sourceTree = "<group>"; };
+		61BC02FA202A24DB00936345 /* routing-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "routing-off.png"; sourceTree = "<group>"; };
+		61BC0300202A2A1300936345 /* icon_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pin.png; sourceTree = "<group>"; };
+		61E6076E200CF08F005CCFE9 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		61E6076F200CF090005CCFE9 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		64D89BD3798CBA4E6CC4AC9B /* libPods-ProximiioMapDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProximiioMapDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		751DDDF4464FCB455D46EB52 /* Pods-ProximiioMapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProximiioMapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProximiioMapDemo/Pods-ProximiioMapDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		961DDB681FEBB0FF009BE838 /* ProximiioMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProximiioMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		961DDB6B1FEBB0FF009BE838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		961DDB6C1FEBB0FF009BE838 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		961DDB771FEBB0FF009BE838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		961DDB791FEBB0FF009BE838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961DDB7A1FEBB0FF009BE838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		961DDB9D1FEBB11F009BE838 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		961DDB9E1FEBB11F009BE838 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		961DDB9F1FEBB11F009BE838 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		961DDBA21FEBB26E009BE838 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		961DDBA31FEBB26E009BE838 /* elevator256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elevator256.png; sourceTree = "<group>"; };
+		961DDBA41FEBB26E009BE838 /* ibeacon_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibeacon_marker.png; sourceTree = "<group>"; };
+		961DDBA51FEBB26E009BE838 /* stairs128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stairs128.png; sourceTree = "<group>"; };
+		961DDBA61FEBB26E009BE838 /* elevator64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elevator64.png; sourceTree = "<group>"; };
+		961DDBA71FEBB26E009BE838 /* elevator2562.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elevator2562.png; sourceTree = "<group>"; };
+		961DDBA81FEBB26E009BE838 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		961DDBA91FEBB26F009BE838 /* eddystone_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eddystone_marker.png; sourceTree = "<group>"; };
+		961DDBB11FEBB301009BE838 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		961DDBB31FEBC3AE009BE838 /* parked-car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parked-car.png"; sourceTree = "<group>"; };
+		FF9B38C32E265105D24AED99 /* Pods-ProximiioMapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProximiioMapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProximiioMapDemo/Pods-ProximiioMapDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		961DDB651FEBB0FF009BE838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616CE137201B67F200BDEC59 /* MapKit.framework in Frameworks */,
+				961DDBB21FEBB301009BE838 /* QuartzCore.framework in Frameworks */,
+				61E60770200CF090005CCFE9 /* Crashlytics.framework in Frameworks */,
+				61E60771200CF090005CCFE9 /* Fabric.framework in Frameworks */,
+				DF612EC9D61164479B98FF7B /* libPods-ProximiioMapDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		611940BF203648A5002E685C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				618A56D92036E7B000800C10 /* track_off.png */,
+				618A56DA2036E7B000800C10 /* track_on.png */,
+				6128B99A20346BF80068EABD /* splash_logo.png */,
+				6128B99820346B0A0068EABD /* background.png */,
+				61543CFD202CCC0C00AA2581 /* route_to.png */,
+				61543D02202CD9A900AA2581 /* default.png */,
+				61543CFC202CCC0B00AA2581 /* show.png */,
+				961DDBA41FEBB26E009BE838 /* ibeacon_marker.png */,
+				961DDBA51FEBB26E009BE838 /* stairs128.png */,
+				61BC02FA202A24DB00936345 /* routing-off.png */,
+				61BC02F8202A24DB00936345 /* routing-on.png */,
+				611940BD20362A9B002E685C /* icon-spy.png */,
+				61BC0300202A2A1300936345 /* icon_pin.png */,
+				611940C0203648C3002E685C /* track-off.png */,
+				611940C1203648C3002E685C /* track-on.png */,
+				611940B720361ED1002E685C /* icon-down.png */,
+				611940B820361ED2002E685C /* icon-up.png */,
+				6128B9A02034BBB80068EABD /* car.png */,
+				61BC02F4202A21B700936345 /* route.png */,
+				61B9EEBB201CF1EE0007829E /* elevator.png */,
+				61B9EEBC201CF1EE0007829E /* stairs.png */,
+				961DDBB31FEBC3AE009BE838 /* parked-car.png */,
+				961DDBA91FEBB26F009BE838 /* eddystone_marker.png */,
+				961DDBA61FEBB26E009BE838 /* elevator64.png */,
+				961DDBA31FEBB26E009BE838 /* elevator256.png */,
+				961DDBA71FEBB26E009BE838 /* elevator2562.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		961DDB5F1FEBB0FF009BE838 = {
+			isa = PBXGroup;
+			children = (
+				61E6076E200CF08F005CCFE9 /* Crashlytics.framework */,
+				61E6076F200CF090005CCFE9 /* Fabric.framework */,
+				961DDB6A1FEBB0FF009BE838 /* ProximiioMapDemo */,
+				961DDB691FEBB0FF009BE838 /* Products */,
+				DC79B782D95E89414E7A4598 /* Pods */,
+				D60EDAE52728408290B7FC6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		961DDB691FEBB0FF009BE838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				961DDB681FEBB0FF009BE838 /* ProximiioMapDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		961DDB6A1FEBB0FF009BE838 /* ProximiioMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				611940BF203648A5002E685C /* Images */,
+				961DDB6B1FEBB0FF009BE838 /* AppDelegate.h */,
+				961DDB6C1FEBB0FF009BE838 /* AppDelegate.m */,
+				961DDB761FEBB0FF009BE838 /* LaunchScreen.storyboard */,
+				961DDB791FEBB0FF009BE838 /* Info.plist */,
+				6128B99C20347A4D0068EABD /* Assets.xcassets */,
+				961DDB7A1FEBB0FF009BE838 /* main.m */,
+				61543CFA202CA1F700AA2581 /* HTTPClient.h */,
+				61543CF9202CA1F600AA2581 /* HTTPClient.m */,
+				961DDB9D1FEBB11F009BE838 /* ViewController.h */,
+				961DDB9E1FEBB11F009BE838 /* ViewController.m */,
+				961DDBA81FEBB26E009BE838 /* ListViewController.h */,
+				961DDBA21FEBB26E009BE838 /* ListViewController.m */,
+				61BC02EB202A028700936345 /* GeoTargetCell.h */,
+				61BC02EC202A028700936345 /* GeoTargetCell.m */,
+				961DDB9F1FEBB11F009BE838 /* ViewController.xib */,
+			);
+			path = ProximiioMapDemo;
+			sourceTree = "<group>";
+		};
+		D60EDAE52728408290B7FC6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				616CE136201B67F100BDEC59 /* MapKit.framework */,
+				961DDBB11FEBB301009BE838 /* QuartzCore.framework */,
+				64D89BD3798CBA4E6CC4AC9B /* libPods-ProximiioMapDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC79B782D95E89414E7A4598 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				751DDDF4464FCB455D46EB52 /* Pods-ProximiioMapDemo.debug.xcconfig */,
+				FF9B38C32E265105D24AED99 /* Pods-ProximiioMapDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		961DDB671FEBB0FF009BE838 /* ProximiioMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961DDB941FEBB100009BE838 /* Build configuration list for PBXNativeTarget "ProximiioMapDemo" */;
+			buildPhases = (
+				75371E5EBE372A712FCD76CE /* [CP] Check Pods Manifest.lock */,
+				961DDB641FEBB0FF009BE838 /* Sources */,
+				961DDB651FEBB0FF009BE838 /* Frameworks */,
+				961DDB661FEBB0FF009BE838 /* Resources */,
+				FB91F6B8724DCE7DA38D3039 /* [CP] Embed Pods Frameworks */,
+				5A5BE8C2947B95876528BB56 /* [CP] Copy Pods Resources */,
+				61E6076D200CF085005CCFE9 /* ShellScript */,
+				1E32EBAE204070B000035164 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProximiioMapDemo;
+			productName = DemoWayFinding;
+			productReference = 961DDB681FEBB0FF009BE838 /* ProximiioMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		961DDB601FEBB0FF009BE838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Office;
+				TargetAttributes = {
+					961DDB671FEBB0FF009BE838 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 961DDB631FEBB0FF009BE838 /* Build configuration list for PBXProject "ProximiioMapDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 961DDB5F1FEBB0FF009BE838;
+			productRefGroup = 961DDB691FEBB0FF009BE838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				961DDB671FEBB0FF009BE838 /* ProximiioMapDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		961DDB661FEBB0FF009BE838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6128B9A12034BBB80068EABD /* car.png in Resources */,
+				61BC02FE202A24DB00936345 /* routing-off.png in Resources */,
+				61BC02F7202A21B700936345 /* route.png in Resources */,
+				61543D03202CD9A900AA2581 /* default.png in Resources */,
+				961DDBAC1FEBB26F009BE838 /* ibeacon_marker.png in Resources */,
+				6128B99D20347A4D0068EABD /* Assets.xcassets in Resources */,
+				961DDB781FEBB0FF009BE838 /* LaunchScreen.storyboard in Resources */,
+				61BC02FC202A24DB00936345 /* routing-on.png in Resources */,
+				961DDBB01FEBB26F009BE838 /* eddystone_marker.png in Resources */,
+				61B9EEBD201CF1EE0007829E /* elevator.png in Resources */,
+				611940BE20362A9C002E685C /* icon-spy.png in Resources */,
+				6128B99920346B0A0068EABD /* background.png in Resources */,
+				961DDBAB1FEBB26F009BE838 /* elevator256.png in Resources */,
+				961DDBAE1FEBB26F009BE838 /* elevator64.png in Resources */,
+				61BC0301202A2A1300936345 /* icon_pin.png in Resources */,
+				961DDBB41FEBC3AE009BE838 /* parked-car.png in Resources */,
+				61543CFF202CCC0D00AA2581 /* route_to.png in Resources */,
+				61543CFE202CCC0D00AA2581 /* show.png in Resources */,
+				961DDBAF1FEBB26F009BE838 /* elevator2562.png in Resources */,
+				6128B99B20346BF90068EABD /* splash_logo.png in Resources */,
+				618A56DC2036E7B100800C10 /* track_on.png in Resources */,
+				611940B920361ED2002E685C /* icon-down.png in Resources */,
+				611940BA20361ED2002E685C /* icon-up.png in Resources */,
+				961DDBAD1FEBB26F009BE838 /* stairs128.png in Resources */,
+				618A56DB2036E7B100800C10 /* track_off.png in Resources */,
+				961DDBA11FEBB11F009BE838 /* ViewController.xib in Resources */,
+				61B9EEBE201CF1EE0007829E /* stairs.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A5BE8C2947B95876528BB56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProximiioMapDemo/Pods-ProximiioMapDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61E6076D200CF085005CCFE9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run ec06fd767fe1d3540549c42a9b3c57cda88c2f6f 7275b75c57359750e54a3503a7163949d671ea1fbfb174ec42a5db911b6b8719";
+		};
+		75371E5EBE372A712FCD76CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProximiioMapDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB91F6B8724DCE7DA38D3039 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProximiioMapDemo/Pods-ProximiioMapDemo-frameworks.sh",
+				"${PODS_ROOT}/Proximiio/Pod/Proximiio.framework",
+				"${PODS_ROOT}/ProximiioMap/Pod/ProximiioMap.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Proximiio.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProximiioMap.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProximiioMapDemo/Pods-ProximiioMapDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		961DDB641FEBB0FF009BE838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961DDBA01FEBB11F009BE838 /* ViewController.m in Sources */,
+				961DDB7B1FEBB0FF009BE838 /* main.m in Sources */,
+				61543CFB202CA1F700AA2581 /* HTTPClient.m in Sources */,
+				961DDB6D1FEBB0FF009BE838 /* AppDelegate.m in Sources */,
+				961DDBAA1FEBB26F009BE838 /* ListViewController.m in Sources */,
+				61BC02ED202A028700936345 /* GeoTargetCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		961DDB761FEBB0FF009BE838 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				961DDB771FEBB0FF009BE838 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		961DDB921FEBB100009BE838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		961DDB931FEBB100009BE838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		961DDB951FEBB100009BE838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751DDDF4464FCB455D46EB52 /* Pods-ProximiioMapDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Y9CWV3TA2;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ProximiioMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.proximi.MapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		961DDB961FEBB100009BE838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF9B38C32E265105D24AED99 /* Pods-ProximiioMapDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Y9CWV3TA2;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ProximiioMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.proximi.MapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		961DDB631FEBB0FF009BE838 /* Build configuration list for PBXProject "ProximiioMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961DDB921FEBB100009BE838 /* Debug */,
+				961DDB931FEBB100009BE838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961DDB941FEBB100009BE838 /* Build configuration list for PBXNativeTarget "ProximiioMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961DDB951FEBB100009BE838 /* Debug */,
+				961DDB961FEBB100009BE838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 961DDB601FEBB0FF009BE838 /* Project object */;
+}
